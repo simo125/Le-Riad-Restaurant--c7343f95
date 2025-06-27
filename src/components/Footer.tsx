@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo et Description */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Snack 25</h3>
+            <h3 className="text-2xl font-bold mb-4">Le Riad Restaurant</h3>
             <p className="mb-4 text-primary-foreground/80">
               Le meilleur street food d'Errachidia. Saveurs authentiques, 
               ingrédients frais, et passion culinaire depuis notre ouverture.
@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 flex-shrink-0" />
-                <span className="text-sm">+212 6XX XXX XXX</span>
+                <span className="text-sm">+212 632 523 425</span>
               </div>
               <div className="flex items-start space-x-2">
                 <Clock className="h-5 w-5 mt-0.5 flex-shrink-0" />
@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            © 2024 Snack 25. Tous droits réservés.
+            © 2025 Le Raid Restaurant. Tous droits réservés.
           </p>
         </div>
       </div>

@@ -28,19 +28,19 @@ const About = () => {
     {
       name: "Ahmed El Fassi",
       role: "Chef Cuisinier",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=300&q=80",
+      image: "assets/chef.jpg",
       description: "15 ans d'expérience dans la cuisine traditionnelle et moderne"
     },
     {
       name: "Fatima Benali",
       role: "Responsable Service",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=300&q=80",
+      image: "assets/Fatima Benali.jpg",
       description: "Experte en service client et organisation d'événements"
     },
     {
       name: "Youssef Amrani",
       role: "Manager",
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=300&q=80",
+      image: "assets/Youssef Amrani.jpg",
       description: "Vision stratégique et gestion quotidienne du restaurant"
     }
   ];
@@ -53,7 +53,7 @@ const About = () => {
         {/* Hero Section */}
         <section className="py-20 bg-primary text-primary-foreground">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">À Propos de Snack 25</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">À Propos de Le Riad Restaurant </h1>
             <p className="text-xl max-w-3xl mx-auto">
               Une histoire de passion culinaire au cœur d'Errachidia, 
               où tradition marocaine et innovation se rencontrent.
@@ -69,7 +69,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Notre Histoire</h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Snack 25 a ouvert ses portes avec une vision simple mais ambitieuse : 
+                  Le Riad Restaurant a ouvert ses portes avec une vision simple mais ambitieuse : 
                     proposer le meilleur street food d'Errachidia en alliant traditions 
                     culinaires marocaines et techniques modernes.
                   </p>
@@ -87,12 +87,12 @@ const About = () => {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?auto=format&fit=crop&w=400&q=80"
+                  src="assets/a.jpg"
                   alt="Intérieur du restaurant"
                   className="rounded-lg shadow-lg"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80"
+                  src="assets/b.jpg"
                   alt="Nos spécialités"
                   className="rounded-lg shadow-lg mt-8"
                 />

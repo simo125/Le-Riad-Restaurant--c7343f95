@@ -28,7 +28,7 @@ const Menu = () => {
         name: 'Burger Classique',
         description: 'Steak haché, salade, tomate, oignon, sauce maison',
         price: 35,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/panini.jpg',
         popular: true
       },
       {
@@ -36,7 +36,7 @@ const Menu = () => {
         name: 'Burger Royal',
         description: 'Double steak, fromage, bacon, salade, sauce BBQ',
         price: 45,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/panini royal.jpg',
         popular: false
       },
       {
@@ -44,7 +44,7 @@ const Menu = () => {
         name: 'Burger Épicé',
         description: 'Steak épicé, piment jalapeño, sauce harissa, cheddar',
         price: 40,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Burger Épicé.jpg',
         popular: true
       }
     ],
@@ -54,7 +54,7 @@ const Menu = () => {
         name: 'Club Sandwich',
         description: 'Poulet grillé, bacon, salade, tomate, mayo',
         price: 30,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Club Sandwich.jpg',
         popular: false
       },
       {
@@ -62,7 +62,7 @@ const Menu = () => {
         name: 'Sandwich Thon',
         description: 'Thon, œuf dur, salade, tomate, mayonnaise',
         price: 25,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Sandwich au thon.jpg',
         popular: true
       }
     ],
@@ -72,7 +72,7 @@ const Menu = () => {
         name: 'Tacos Poulet',
         description: 'Poulet grillé, salade, tomate, sauce blanche, frites',
         price: 28,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Tacos Poulet.jpg',
         popular: true
       },
       {
@@ -80,7 +80,7 @@ const Menu = () => {
         name: 'Tacos Viande',
         description: 'Viande hachée, salade, tomate, sauce algérienne, frites',
         price: 32,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Tacos Viande.jpg',
         popular: false
       }
     ],
@@ -90,7 +90,7 @@ const Menu = () => {
         name: 'Jus d\'Orange Frais',
         description: 'Jus d\'orange pressé à la minute',
         price: 12,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Jus dOrange Frais.jpg',
         popular: true
       },
       {
@@ -98,7 +98,7 @@ const Menu = () => {
         name: 'Coca Cola',
         description: 'Boisson gazeuse rafraîchissante',
         price: 8,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Coca Cola.jpg',
         popular: false
       }
     ],
@@ -108,9 +108,10 @@ const Menu = () => {
         name: 'Tiramisu',
         description: 'Dessert italien traditionnel au café',
         price: 18,
-        image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=400&q=80',
+        image: 'assets/Tiramisu.jpg',
         popular: true
       }
+      
     ]
   };
 

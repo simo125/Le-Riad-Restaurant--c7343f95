@@ -146,7 +146,7 @@ const Contact = () => {
                     <Phone className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold">Téléphone</p>
-                      <p className="text-muted-foreground">+212 6XX XXX XXX</p>
+                      <p className="text-muted-foreground">+212 632 523 425</p>
                     </div>
                   </div>
                   
@@ -154,7 +154,7 @@ const Contact = () => {
                     <MessageCircle className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold">WhatsApp</p>
-                      <p className="text-muted-foreground">+212 6XX XXX XXX</p>
+                      <p className="text-muted-foreground">+212 632 523 425</p>
                     </div>
                   </div>
                   
@@ -162,7 +162,7 @@ const Contact = () => {
                     <Mail className="h-5 w-5 text-primary" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-muted-foreground">contact@snack25.ma</p>
+                      <p className="text-muted-foreground">contact@leraidrestaurant.ma</p>
                     </div>
                   </div>
 

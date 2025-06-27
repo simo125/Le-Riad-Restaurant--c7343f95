@@ -17,13 +17,13 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=1920&q=80')`
+            backgroundImage: `url('assets/Raid.jpg')`
           }}
         />
         
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Snack 25
+          Le Riad Restaurant
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in" style={{animationDelay: '0.3s'}}>
             L'authenticité du street food marocain à Errachidia
@@ -56,7 +56,7 @@ const Index = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Pourquoi Snack 25 ?</h2>
+            <h2 className="text-4xl font-bold mb-4">Pourquoi Le Riad Restaurant ?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Une expérience culinaire unique alliant tradition marocaine et innovation moderne
             </p>
